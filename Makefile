@@ -22,6 +22,9 @@
 
 # Check if the system has been configured
 
+export CROSSDEV=/home/bobo/bin/riscv32-esp-elf/bin/riscv32-esp-elf-
+export PATH:=/home/bobo/.local/bin:$(PATH)
+
 ifeq ($(wildcard .config),)
 .DEFAULT default:
 	@echo "NuttX has not been configured!"

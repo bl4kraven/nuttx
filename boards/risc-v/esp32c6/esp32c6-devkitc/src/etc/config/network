@@ -1,0 +1,2 @@
+DEVICE=wlan0
+IPv4PROTO=dhcp
